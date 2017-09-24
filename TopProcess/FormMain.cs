@@ -72,6 +72,7 @@ namespace TopProcess
         Settings.Default.WindowSize = this.Size;
       else
         Settings.Default.WindowSize = this.RestoreBounds.Size;
+      Settings.Default.WindowAllwaysOnTop = this.TopMost;
 
       // Save settings
       Settings.Default.Save();
@@ -86,6 +87,13 @@ namespace TopProcess
       // window size
       if (Settings.Default.WindowSize != null)
         this.Size = Settings.Default.WindowSize;
+
+      this.TopMost = Settings.Default.WindowAllwaysOnTop;
+      if (!Settings.Default.WindowAllwaysOnTop)
+      {
+        this.ShowIcon = true;
+        this.ShowInTaskbar = true;
+      }
     }
 
     private void panelChart_Paint(object sender, PaintEventArgs e)

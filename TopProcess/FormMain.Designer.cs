@@ -37,6 +37,7 @@
       System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
       System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
       System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+      System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
       this.panelMemory = new System.Windows.Forms.Panel();
       this.gridMemory = new System.Windows.Forms.DataGridView();
       this.gridMemoryColumnName = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -234,6 +235,7 @@
       this.Controls.Add(this.panelChart);
       this.Controls.Add(this.panelMemory);
       this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+      this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
       this.MaximizeBox = false;
       this.MinimizeBox = false;
       this.Name = "FormMain";
