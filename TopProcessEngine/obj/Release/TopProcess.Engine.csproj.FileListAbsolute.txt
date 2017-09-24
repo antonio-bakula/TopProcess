@@ -1,4 +1,0 @@
-W:\Code\codeplex\topprocess\TopProcessEngine\bin\Release\TopProcess.Engine.dll
-W:\Code\codeplex\topprocess\TopProcessEngine\bin\Release\TopProcess.Engine.pdb
-W:\Code\codeplex\topprocess\TopProcessEngine\obj\Release\TopProcess.Engine.dll
-W:\Code\codeplex\topprocess\TopProcessEngine\obj\Release\TopProcess.Engine.pdb
