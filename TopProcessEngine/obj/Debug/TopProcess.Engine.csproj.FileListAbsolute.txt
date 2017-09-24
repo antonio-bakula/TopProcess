@@ -1,0 +1,5 @@
+W:\Code\codeplex\topprocess\TopProcessEngine\bin\Debug\TopProcess.Engine.dll
+W:\Code\codeplex\topprocess\TopProcessEngine\bin\Debug\TopProcess.Engine.pdb
+W:\Code\codeplex\topprocess\TopProcessEngine\obj\Debug\TopProcess.Engine.csprojResolveAssemblyReference.cache
+W:\Code\codeplex\topprocess\TopProcessEngine\obj\Debug\TopProcess.Engine.dll
+W:\Code\codeplex\topprocess\TopProcessEngine\obj\Debug\TopProcess.Engine.pdb
